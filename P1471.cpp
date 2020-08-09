@@ -1,10 +1,11 @@
-#include<cstdio>
-#include<iostream>
+#include <bits/stdc++.h>
+#define MAXN 1000005
 using namespace std;
-double tree[1000001];
-double tree1[1000001];
-double tag[1000001];
-int n,m,R,L;
+double tree[MAXN];
+double tree1[MAXN];
+double tag[MAXN];
+int n,m;
+int R,L;
 double a;
 void build(int l,int r,int num)
 {
