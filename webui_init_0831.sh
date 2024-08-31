@@ -42,9 +42,14 @@ CHECKPOINT_MODELS=(
 )
 
 LORA_MODELS=(
+    # 22
     "https://civitai.com/api/download/models/80024"
+    # 33
     "https://civitai.com/api/download/models/79121"
+    # 嘉然
     "https://civitai.com/api/download/models/15787"
+    # miku
+    "https://civitai.com/api/download/models/112982"
 )
 
 VAE_MODELS=(
@@ -59,6 +64,10 @@ ESRGAN_MODELS=(
     "https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
     "https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
     "https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
+)
+
+EMBEDDINGS=(
+    "https://huggingface.co/datasets/gsdf/EasyNegative/resolve/main/EasyNegative.safetensors"
 )
 
 CONTROLNET_MODELS=(
@@ -116,6 +125,9 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/esrgan" \
         "${ESRGAN_MODELS[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/embeddings" \
+        "${EMBEDDINGS[@]}"
      
     PLATFORM_ARGS=""
     if [[ $XPU_TARGET = "CPU" ]]; then
