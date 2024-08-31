@@ -50,7 +50,7 @@ VAE_MODELS=(
     #"https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
     #"https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
     # "https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
-    "https://huggingface.co/gsdf/Counterfeit-V2.5/resolve/main/Counterfeit-V2.5.safetensors"
+    "https://huggingface.co/gsdf/Counterfeit-V2.5/resolve/main/Counterfeit-V2.5.vae.pt"
 )
 
 ESRGAN_MODELS=(
