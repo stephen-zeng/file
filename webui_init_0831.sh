@@ -30,6 +30,7 @@ EXTENSIONS=(
     # "https://github.com/Gourieff/sd-webui-reactor"
     "https://github.com/opparco/stable-diffusion-webui-composable-lora"
     "https://github.com/opparco/stable-diffusion-webui-two-shot"
+    "https://github.com/hnmr293/sd-webui-cutoff"
 )
 
 CHECKPOINT_MODELS=(
