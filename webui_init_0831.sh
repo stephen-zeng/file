@@ -32,6 +32,8 @@ EXTENSIONS=(
     "https://github.com/opparco/stable-diffusion-webui-two-shot"
     "https://github.com/hnmr293/sd-webui-cutoff"
     "https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111"
+    "https://github.com/hnmr293/posex"
+    "https://github.com/opparco/stable-diffusion-webui-two-shot"
 )
 
 CHECKPOINT_MODELS=(
