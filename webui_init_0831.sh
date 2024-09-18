@@ -20,7 +20,7 @@ PIP_PACKAGES=(
 )
 
 EXTENSIONS=(
-    "https://github.com/Mikubill/sd-webui-controlnet"
+    # "https://github.com/Mikubill/sd-webui-controlnet"
     # "https://github.com/deforum-art/sd-webui-deforum"
     # "https://github.com/adieyal/sd-dynamic-prompts"
     # "https://github.com/ototadana/sd-face-editor"
@@ -29,11 +29,11 @@ EXTENSIONS=(
     # "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
     # "https://github.com/Gourieff/sd-webui-reactor"
     "https://github.com/opparco/stable-diffusion-webui-composable-lora"
-    "https://github.com/opparco/stable-diffusion-webui-two-shot"
+    # "https://github.com/opparco/stable-diffusion-webui-two-shot"
     "https://github.com/hnmr293/sd-webui-cutoff"
     "https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111"
-    "https://github.com/hnmr293/posex"
-    "https://github.com/ashen-sensored/stable-diffusion-webui-two-shot"
+    # "https://github.com/hnmr293/posex"
+    # "https://github.com/ashen-sensored/stable-diffusion-webui-two-shot"
 )
 
 CHECKPOINT_MODELS=(
@@ -51,9 +51,9 @@ LORA_MODELS=(
     # 33
     "https://civitai.com/api/download/models/79121"
     # 嘉然
-    "https://civitai.com/api/download/models/15787"
+    # "https://civitai.com/api/download/models/15787"
     # miku
-    "https://civitai.com/api/download/models/112982"
+    # "https://civitai.com/api/download/models/112982"
 )
 
 VAE_MODELS=(
