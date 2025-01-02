@@ -42,7 +42,11 @@ CHECKPOINT_MODELS=(
     # "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     # "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
     # "https://huggingface.co/gsdf/Counterfeit-V3.0/resolve/main/Counterfeit-V3.0.safetensors"
-    "https://civitai.com/api/download/models/105924"
+    # CetusMix
+    # "https://civitai.com/api/download/models/105924"
+    # QteaMix
+    "https://civitai.com/api/download/models/94654"
+    
 )
 
 LORA_MODELS=(
@@ -71,7 +75,8 @@ ESRGAN_MODELS=(
 )
 
 EMBEDDINGS=(
-    "https://huggingface.co/datasets/gsdf/EasyNegative/resolve/main/EasyNegative.safetensors"
+    # "https://huggingface.co/datasets/gsdf/EasyNegative/resolve/main/EasyNegative.safetensors"
+    "https://civitai.com/api/download/models/25820"
 )
 
 CONTROLNET_MODELS=(
