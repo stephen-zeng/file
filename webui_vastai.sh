@@ -43,7 +43,7 @@ CHECKPOINT_MODELS=(
     # "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
     # "https://huggingface.co/gsdf/Counterfeit-V3.0/resolve/main/Counterfeit-V3.0.safetensors"
     # CetusMix
-    # "https://civitai.com/api/download/models/105924"
+    "https://civitai.com/api/download/models/105924"
     # QteaMix
     "https://civitai.com/api/download/models/94654"
     
@@ -55,9 +55,13 @@ LORA_MODELS=(
     # 33
     "https://civitai.com/api/download/models/79121"
     # 嘉然
-    # "https://civitai.com/api/download/models/15787"
+    "https://civitai.com/api/download/models/15787"
     # miku
-    # "https://civitai.com/api/download/models/112982"
+    "https://civitai.com/api/download/models/112982"
+    # Alya
+    "https://civitai.com/api/download/models/1052079"
+    # 椎名ましろ
+    "https://civitai.com/api/download/models/55367"
 )
 
 VAE_MODELS=(
@@ -75,7 +79,7 @@ ESRGAN_MODELS=(
 )
 
 EMBEDDINGS=(
-    # "https://huggingface.co/datasets/gsdf/EasyNegative/resolve/main/EasyNegative.safetensors"
+    "https://huggingface.co/datasets/gsdf/EasyNegative/resolve/main/EasyNegative.safetensors"
     "https://civitai.com/api/download/models/25820"
 )
 
