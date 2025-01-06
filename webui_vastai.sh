@@ -45,7 +45,7 @@ CHECKPOINT_MODELS=(
     # CetusMix
     "https://civitai.com/api/download/models/105924"
     # QteaMix
-    "https://civitai.com/api/download/models/94654"
+    # "https://civitai.com/api/download/models/94654"
     
 )
 
