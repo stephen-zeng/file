@@ -20,7 +20,7 @@ PIP_PACKAGES=(
 )
 
 EXTENSIONS=(
-    # "https://github.com/Mikubill/sd-webui-controlnet"
+    "https://github.com/Mikubill/sd-webui-controlnet"
     # "https://github.com/deforum-art/sd-webui-deforum"
     # "https://github.com/adieyal/sd-dynamic-prompts"
     # "https://github.com/ototadana/sd-face-editor"
@@ -43,9 +43,11 @@ CHECKPOINT_MODELS=(
     # "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
     # "https://huggingface.co/gsdf/Counterfeit-V3.0/resolve/main/Counterfeit-V3.0.safetensors"
     # CetusMix
-    "https://civitai.com/api/download/models/105924"
+    # "https://civitai.com/api/download/models/105924"
     # QteaMix
     # "https://civitai.com/api/download/models/94654"
+    # AnimagineXL
+    "https://civitai.com/api/download/models/403131?type=Model"
     
 )
 
@@ -69,7 +71,8 @@ VAE_MODELS=(
     #"https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
     # "https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
     # "https://huggingface.co/gsdf/Counterfeit-V2.5/resolve/main/Counterfeit-V2.5.vae.pt"
-    "https://huggingface.co/JamesFlare/pastel-mix/resolve/main/pastel-waifu-diffusion.vae.pt"
+    # "https://huggingface.co/JamesFlare/pastel-mix/resolve/main/pastel-waifu-diffusion.vae.pt"
+    "https://civitai.com/api/download/models/403131?type=VAE"
 )
 
 ESRGAN_MODELS=(
@@ -84,9 +87,9 @@ EMBEDDINGS=(
 )
 
 CONTROLNET_MODELS=(
-    # "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_canny_mid.safetensors"
-    # "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_mid.safetensors?download"
-    # "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/t2i-adapter_diffusers_xl_openpose.safetensors"
+    "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_canny_mid.safetensors"
+    "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_mid.safetensors"
+    "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/t2i-adapter_diffusers_xl_openpose.safetensors"
     "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_canny-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_depth-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_hed-fp16.safetensors"
@@ -103,6 +106,7 @@ CONTROLNET_MODELS=(
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_seg-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_sketch-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_style-fp16.safetensors"
+    "https://huggingface.co/InstantX/InstantID/resolve/main/ControlNetModel/diffusion_pytorch_model.safetensors"
 )
 
 
